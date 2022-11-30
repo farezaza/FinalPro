@@ -2,7 +2,7 @@
  using System.Collections;
  class Queue
     {
-        int[] table = new int[2];
+        int[] table = new int[10];
         int reserved_seat = 0 ;
         int total_queue = 0 ;
         public void show_queue()
